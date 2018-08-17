@@ -1,3 +1,6 @@
+//This is a program that detects and prints out any numbers between "low" and "high" that divide by its digits without remainders
+//Any number with a digit of '0' are automatically excluded
+
 #include <iostream>
 #include <string>
 using namespace std;
