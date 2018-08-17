@@ -1,3 +1,9 @@
+//This program prints out all integers between 0 to n
+//If any number between 0 to n that's:
+//      A factor of 3 and 5: Prints "FizzBuzz"
+//      A factor of only 3: Prints "Fizz"
+//      A factor of only 5: Prints "Buzz"
+
 #include <iostream>
 #include <string>
 using namespace std;
