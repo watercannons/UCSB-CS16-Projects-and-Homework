@@ -13,7 +13,7 @@ int main()
     int n = 20;
     string fizzBuzz[20];
 
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n+1; i++)
     {
         if(i % 3 == 0 && i % 5 == 0)
             fizzBuzz[i] = "FizzBuzz";
