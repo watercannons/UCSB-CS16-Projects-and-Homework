@@ -1,3 +1,14 @@
+/*
+This program calculates if it's possible to give out change in the following circumstances:
+
+1. Each lemonade costs $5
+2. Each customer gives a currency denomination of either $5, $10, or $20
+3. The starting money is $0
+4. Change must be given in the order of the array bills[]
+
+If change can be given out in the correct order, the program prints out true. Otherwise, prints out false
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -38,7 +49,7 @@ int main()
             if(tenCounter < 0 || fiveCounter < 0)
             {
                 change = false;
-                break;
+h                break;
             }
         }
     }
