@@ -1,3 +1,5 @@
+//This program demonstrates some string modification both using the string class and a char array
+
 #include <iostream>
 #include <string>
 using namespace std;
