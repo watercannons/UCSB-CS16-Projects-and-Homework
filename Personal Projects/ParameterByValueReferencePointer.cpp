@@ -1,3 +1,6 @@
+//A simple file that adds up all the values in an array, 
+//passing the parameter by values, references, and pointers to achieve the same result
+
 #include <iostream>
 #include <string>
 using namespace std;
