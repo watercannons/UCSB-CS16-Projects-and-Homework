@@ -1,3 +1,7 @@
+//A program that uses the numberModifications class under NumberOperation.h
+//Asks user input for 2 numbers, returns the sum, difference, product, quotient, and greatest common divisor
+
+
 #include <iostream>
 #include <string>
 #include "NumberOperation.h"
