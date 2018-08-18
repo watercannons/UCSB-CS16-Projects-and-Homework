@@ -1,4 +1,9 @@
 ##  **Purpose**
+
+@@@@@@@@
+@ UCSB CS 16 @
+@@@@@@@@
+
 The purpose of this repository is to complete the objectives of the CMPSC 16 course at UCSB, to:
 - Gain experience solving problems with computers
 - Expand their beginning knowledge of programming, and learn to apply structured programming techniques
