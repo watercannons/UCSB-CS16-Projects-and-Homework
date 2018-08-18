@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+const double inToCM = 2.54;
+const double cmToIN = 0.393701;
+
 int main()
 {
     void imperialToMetric(int a,int b,int &c,int &d);
@@ -68,13 +71,13 @@ int main()
 
 void imperialToMetric(int input1, int input2, int &output1, int &output2)
 {
-    output1 = ((input1 * 12 + input2) * 2.54)/100;
-    output2 = ((input1 * 12 + input2) * 2.54) - (output1 * 100);
+    output1 = ((input1 * 12 + input2) * inToCM)/100;
+    output2 = ((input1 * 12 + input2) * inToCM) - (output1 * 100);
 
 }
 
 void metricToImperial(int input1, int input2, int &output1, int &output2)
 {
-    output1 = ((input1 * 100 + input2) * 0.393701) / 12;
-    output2 = ((input1 * 100 + input2) * 0.393701) - (output1 * 12);
+    output1 = ((input1 * 100 + input2) * cmToIN) / 12;
+    output2 = ((input1 * 100 + input2) * cmToIN) - (output1 * 12);
 }
